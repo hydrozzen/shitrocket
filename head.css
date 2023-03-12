@@ -1,0 +1,95 @@
+.responsive {
+    width: 40%;
+    height: auto;
+    margin-top: -29%;
+    margin-left: -5%;
+  }
+
+
+  .hya {
+    line-height: 35px;
+    font-size: 10px;
+    font-family:sans-serif;
+    color: black;
+    margin-left: -5%;
+    margin-top: 10%;
+    font-size: 105%;
+   }
+   .hell{
+    color: rgb(14, 14, 14);
+    margin-left: -23%;
+    font-size: 200%;
+    font-weight: 750;
+    margin-top: -21%;
+   font-family:sans-serif;
+    
+    font: 239px;
+  }
+
+  .responsivee {
+    width: 120%;
+    height: auto;
+  
+    margin-left: -5%;
+  }
+
+
+  .rest{
+    color: #000000;
+    font-size: 54px!important;
+    text-align: center!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style:initial;
+ 
+  }
+
+  .pest{
+    color: #000000;
+    font-size: 19px!important;
+    text-align: center!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style:initial;
+ 
+  }
+
+  /* 2 imagesss */
+  .columnhh {
+    float: left;
+    width: 50%;
+    padding: 35px;
+  }
+  
+
+  .rowhh::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column3 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row3::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .hatya{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: auto;
+  }
+
+
+  .small{
+    font-size: 11px;
+  }
+
+  .boul{
+    font-weight: 900;
+  }
