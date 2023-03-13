@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .menu {
+    width: 33%;
+    float: left;
+    padding: 25px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  
+  .responsive {
+    width: 60%;
+    height: auto;
+  }

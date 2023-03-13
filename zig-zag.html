@@ -1,43 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
-}
+<div class="half-half-image-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Our Mission</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="content">
+          <p>At Fluid Automotive, our purpose is to make automotive parts easily accessible for everyone. Working with our partner brands, we aim to retail the highest quality parts, whilst maintaining a high level of customer satisfaction.</p>
+          
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="img" style="background: url(images/courier_tracking.webp);background-size:cover;"></div>
+      </div>
+    </div>
+  </div>
+    </div>
 
-.flex-item-left {
-  background-color: #f1f1f1;
-  padding: 10px;
-  flex: 50%;
-}
-
-
-
-/* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-</style>
-</head>
-<body>
-
-
-<div class="flex-container">
-  <div class="flex-item-left">1</div>
-
-</div>
-
-</body>
-</html>
-
-
+    <style>
+      .half-half-image-text {
+        padding: 70px 0px;
+     }
+      .half-half-image-text h1 {
+        color: #800000;
+     }
+      .half-half-image-text .content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 35px 0px;
+     }
+      .half-half-image-text .content p {
+        font-size: 22px;
+     }
+      .half-half-image-text .img {
+        min-height: 320px;
+        height: 100%;
+        border-radius: 10px;
+     }
+     .img{
+      min-height: 320px;
+      height: 100%;
+      border-radius: 10px;
+    }
+      
+     </style>
